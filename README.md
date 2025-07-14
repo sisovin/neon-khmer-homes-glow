@@ -1,73 +1,157 @@
-# Welcome to your Lovable project
+# Neon Khmer Homes Glow
 
-## Project info
+**Neon Khmer Homes Glow** is a project dedicated to showcasing the vibrant beauty of Khmer homes with a neon-inspired aesthetic. This repository contains all the source code, assets, and documentation needed to set up, run, and contribute to the project.
 
-**URL**: https://lovable.dev/projects/8549f0f7-eb1d-41f7-91dd-2923fb6f5fc3
+---
 
-## How can I edit this code?
+## Table of Contents
 
-There are several ways of editing your application.
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+  - [Pushing to Your GitHub Account](#pushing-to-your-github-account)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [About the Author](#about-the-author)
+- [License](#license)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8549f0f7-eb1d-41f7-91dd-2923fb6f5fc3) and start prompting.
+## About the Project
 
-Changes made via Lovable will be committed automatically to this repo.
+Neon Khmer Homes Glow is inspired by the rich architectural heritage of Cambodia, reimagined with a modern neon twist. The project aims to blend traditional Khmer design elements with glowing, vibrant graphics, creating a unique digital art and web experience.
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Modern, neon-styled representation of Khmer house architecture
+- Responsive and interactive design
+- Easy to customize and extend
+- Built with modern web technologies
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Follow these steps to set up the project on your local machine and push your changes to your own GitHub account.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/) (if the project uses Node, adjust as needed)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) (optional, if applicable)
+- A GitHub account
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Installation
+
+1. **Fork the Repository**
+
+   Go to [https://github.com/sisovin/neon-khmer-homes-glow](https://github.com/sisovin/neon-khmer-homes-glow) and click the `Fork` button at the top right to create a copy in your GitHub account.
+
+2. **Clone Your Fork**
+
+   ```bash
+   git clone https://github.com/<your-username>/neon-khmer-homes-glow.git
+   cd neon-khmer-homes-glow
+   ```
+
+3. **Install Dependencies** (if applicable)
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. **Set Up Environment Variables** (if needed)
+
+   If your project requires environment variables, create a `.env` file from the sample:
+
+   ```bash
+   cp .env.example .env
+   # Edit .env with your preferred editor
+   ```
+
+### Running the Project
+
+To start the project locally:
+
+```bash
+npm start
+# or
+yarn start
 ```
 
-**Edit a file directly in GitHub**
+Visit [http://localhost:3000](http://localhost:3000) (or the port displayed) to view the app in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Pushing to Your GitHub Account
 
-**Use GitHub Codespaces**
+1. Make your changes locally.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Add and commit your changes:
 
-## What technologies are used for this project?
+   ```bash
+   git add .
+   git commit -m "Describe your changes"
+   ```
 
-This project is built with:
+3. Push changes to your forked repository:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   git push origin main
+   # or replace 'main' with your branch name
+   ```
 
-## How can I deploy this project?
+4. Create a Pull Request if you want your changes to be merged into the original repository.
 
-Simply open [Lovable](https://lovable.dev/projects/8549f0f7-eb1d-41f7-91dd-2923fb6f5fc3) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Contributing
 
-Yes, you can!
+Contributions are welcome! Please follow these steps:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Fork the repo and create your branch from `main`:**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+2. **Commit your changes** with clear messages.
+
+3. **Push to your fork** and submit a pull request.
+
+4. **Describe your changes** in detail in the PR.
+
+5. **Wait for review and feedback.**
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed guidelines (create if not exists).
+
+---
+
+## Acknowledgements
+
+- Inspired by the traditional beauty of Khmer architecture and culture.
+- Thanks to the open-source community for tools and resources.
+- [List any libraries, frameworks, contributors, or artwork used.]
+
+---
+
+## About the Author
+
+**SISOVIN SOK**
+
+- GitHub: [sisovin](https://github.com/sisovin)
+- Passionate about Cambodian culture, digital art, and modern web development.
+- For feedback, suggestions, or collaboration, feel free to reach out via GitHub or [your preferred contact info].
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy exploring Neon Khmer Homes Glow!
